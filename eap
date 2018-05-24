@@ -24,7 +24,7 @@ eap {
 	#  then that EAP type takes precedence over the
 	#  default type configured here.
 	#
-	default_eap_type = md5
+	default_eap_type = peap
 
 	#  A list is maintained to correlate EAP-Response
 	#  packets with EAP-Request packets.  After a
@@ -90,7 +90,7 @@ eap {
 		# section is processed.  EAP-PWD requests can be
 		# distinguished by having a User-Name, but
 		# no User-Password, CHAP-Password, EAP-Message, etc.
-#		virtual_server = "inner-tunnel"
+		virtual_server = "inner-tunnel"
 	}
 
 	# Cisco LEAP
