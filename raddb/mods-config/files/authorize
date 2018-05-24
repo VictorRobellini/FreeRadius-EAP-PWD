@@ -1,0 +1,5 @@
+"testuser" Cleartext-Password := "testpass"
+
+	Tunnel-Type = VLAN,
+	Tunnel-Medium-Type = IEEE-802,
+	Tunnel-Private-Group-ID = "15"
